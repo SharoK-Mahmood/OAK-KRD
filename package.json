@@ -1,0 +1,26 @@
+{
+  "name": "oak-krd",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev:website",
+    "dev:website": "npm run dev -w @oak-krd/website",
+    "dev:backend": "npm run dev -w @oak-krd/backend",
+    "dev:all": "npm run dev:backend & npm run dev:website",
+    "build": "npm run build -w @oak-krd/database && npm run build -w @oak-krd/backend && npm run build -w @oak-krd/website",
+    "db:generate": "npm run generate -w @oak-krd/database",
+    "db:migrate": "npm run migrate -w @oak-krd/database",
+    "db:push": "npm run push -w @oak-krd/database",
+    "db:studio": "npm run studio -w @oak-krd/database",
+    "db:seed": "npm run seed -w @oak-krd/database",
+    "db:up": "docker compose up -d",
+    "db:down": "docker compose down",
+    "lint": "npm run lint -w @oak-krd/website"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

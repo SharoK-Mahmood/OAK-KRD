@@ -1,0 +1,158 @@
+@import "tailwindcss";
+
+:root {
+  --oak-bone: #fcfbf8;
+  --oak-paper: #ffffff;
+  --oak-mist: #fcfbf8;
+  --oak-ink: #1a1512;
+  --oak-fire: #b22222;
+  --oak-fire-dark: #8b1a1a;
+  --oak-leaf: #b22222;
+  --oak-moss: #b22222;
+  --oak-stone: #6b6560;
+  --oak-clay: #e8e4dc;
+  --oak-sand: #f5f2ea;
+  --oak-rule: #e0dbd2;
+}
+
+@theme inline {
+  --color-oak-bone: var(--oak-bone);
+  --color-oak-paper: var(--oak-paper);
+  --color-oak-mist: var(--oak-mist);
+  --color-oak-ink: var(--oak-ink);
+  --color-oak-fire: var(--oak-fire);
+  --color-oak-fire-dark: var(--oak-fire-dark);
+  --color-oak-leaf: var(--oak-leaf);
+  --color-oak-moss: var(--oak-moss);
+  --color-oak-stone: var(--oak-stone);
+  --color-oak-clay: var(--oak-clay);
+  --color-oak-sand: var(--oak-sand);
+  --color-oak-rule: var(--oak-rule);
+  --font-brand: var(--font-bodoni);
+  --font-display: var(--font-newsreader);
+  --font-body: var(--font-source-sans);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--oak-bone);
+  color: var(--oak-ink);
+  font-family: var(--font-body), system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+img,
+video,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.font-brand {
+  font-family: var(--font-brand), "Times New Roman", serif;
+  font-optical-sizing: auto;
+}
+
+.font-display {
+  font-family: var(--font-display), Georgia, serif;
+}
+
+.page-shell {
+  min-height: 100vh;
+  min-height: 100dvh;
+  background: var(--oak-bone);
+  overflow-x: clip;
+}
+
+.rtl {
+  direction: rtl;
+}
+
+.badge-hot {
+  display: inline-block;
+  background: var(--oak-fire);
+  color: #fff;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0.25rem 0.5rem;
+}
+
+.kicker {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--oak-fire);
+}
+
+/* Shared page gutters */
+.oak-container {
+  width: 100%;
+  max-width: 72rem;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+@media (min-width: 640px) {
+  .oak-container {
+    padding-inline: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .oak-container {
+    padding-inline: 2rem;
+  }
+}
+
+/* Horizontal nav scroll without ugly scrollbar on mobile */
+.nav-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: var(--oak-rule) transparent;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroll::-webkit-scrollbar {
+  height: 3px;
+}
+
+.nav-scroll::-webkit-scrollbar-thumb {
+  background: var(--oak-rule);
+}
+
+.nav-fade {
+  mask-image: linear-gradient(90deg, transparent 0, #000 12px, #000 calc(100% - 12px), transparent 100%);
+}
+
+@media (min-width: 1024px) {
+  .nav-fade {
+    mask-image: none;
+  }
+}
+
+/* Readable article body on all screens */
+.article-body {
+  font-size: clamp(1rem, 0.95rem + 0.2vw, 1.125rem);
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+:focus-visible {
+  outline: 2px solid var(--oak-fire);
+  outline-offset: 2px;
+}

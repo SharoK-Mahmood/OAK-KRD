@@ -1,0 +1,9 @@
+{
+  "name": "@oak-krd/mobile",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Oak KRD mobile app (Expo) — not started yet. Will talk to apps/backend.",
+  "scripts": {
+    "placeholder": "node -e \"console.log('Mobile app not scaffolded yet. Use Expo when ready.')\""
+  }
+}

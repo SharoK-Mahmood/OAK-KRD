@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-label="GÕH'µÌ FHÎFÕ1">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1A1512"/>
+      <stop offset="100%" stop-color="#3A2218"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="640" fill="url(#bg)"/>
+  <rect x="48" y="48" width="544" height="544" fill="none" stroke="#B22222" stroke-width="3" opacity="0.85"/>
+  <text x="80" y="180" fill="#FCFBF8" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="600">GÕH'µÌ FHÎFÕ1</text>
+  <text x="80" y="250" fill="#B22222" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">EPISODE</text>
+  <text x="80" y="320" fill="#EFEBE0" font-family="Arial, sans-serif" font-size="28">&ÕE1Ì©' H &Î1'F</text>
+  <text x="80" y="370" fill="#CFC8BB" font-family="Arial, sans-serif" font-size="22">HÕµ'EÌ ~D'F · ,Î(Õ,Î©1/F</text>
+  <circle cx="520" cy="500" r="46" fill="#B22222"/>
+  <polygon points="508,475 508,525 548,500" fill="#FCFBF8"/>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1100" viewBox="0 0 900 1100">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1f3a2a"/>
+      <stop offset="55%" stop-color="#c45c26"/>
+      <stop offset="100%" stop-color="#1f3a2a"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1100" fill="url(#g)"/>
+  <path d="M0 220 L900 80 L900 200 L0 340 Z" fill="#f9f6ee" opacity="0.12"/>
+  <circle cx="700" cy="280" r="160" fill="#f9f6ee" opacity="0.1"/>
+  <rect x="70" y="70" width="760" height="960" fill="none" stroke="#f9f6ee" stroke-opacity="0.35" stroke-width="2"/>
+  <text x="110" y="560" font-family="Georgia, serif" font-size="120" font-weight="700" fill="#f9f6ee">CF</text>
+  <text x="110" y="980" font-family="Georgia, serif" font-size="28" fill="#f9f6ee" fill-opacity="0.7">Oak KRD · Gallery</text>
+</svg>

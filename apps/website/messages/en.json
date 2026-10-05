@@ -1,0 +1,171 @@
+{
+  "brand": {
+    "name": "Oak KRD",
+    "tagline": "Unified publishing for knowledge and news"
+  },
+  "nav": {
+    "home": "Home",
+    "discover": "Discover",
+    "publish": "Publish",
+    "signIn": "Sign in",
+    "signUp": "Create account",
+    "signOut": "Sign out",
+    "dashboard": "Dashboard"
+  },
+  "sections": {
+    "empty": "Nothing published in this section yet.",
+    "news": {
+      "nav": "News",
+      "title": "News",
+      "description": "Latest news from publishers and organizations."
+    },
+    "articles": {
+      "nav": "Articles",
+      "title": "Articles",
+      "description": "Long-form writing and opinion."
+    },
+    "gallery": {
+      "nav": "Art & Gallery",
+      "title": "Art & Gallery",
+      "description": "Paintings, graphic arts, and exhibitions."
+    },
+    "books": {
+      "nav": "Books",
+      "title": "Books",
+      "description": "Books and e-books available on the platform."
+    },
+    "audiobooks": {
+      "nav": "Audiobooks",
+      "title": "Audiobooks",
+      "description": "Listen to books in audio form."
+    },
+    "research": {
+      "nav": "Research",
+      "title": "Research",
+      "description": "Research papers and academic publications."
+    },
+    "podcasts": {
+      "nav": "Podcasts",
+      "title": "Podcasts",
+      "description": "Podcast series and episodes."
+    },
+    "video": {
+      "nav": "Video",
+      "title": "Video",
+      "description": "Video versions and visual storytelling."
+    },
+    "translations": {
+      "nav": "Translations",
+      "title": "Translations",
+      "description": "Works available in more than one language."
+    }
+  },
+  "home": {
+    "headline": "One platform. Many formats.",
+    "subhead": "Publish news, articles, books, and research — then reach readers as text, audio, video, or translation.",
+    "ctaPrimary": "Start publishing",
+    "ctaSecondary": "Explore content",
+    "foundationNote": "Foundation in progress: auth, organizations, and content variants.",
+    "hotNow": "Hot now",
+    "breaking": "Breaking",
+    "latest": "Latest",
+    "viewAll": "View all",
+    "emptyFeed": "No stories published yet. Be the first voice on Oak KRD.",
+    "comingSoon": "Coming soon",
+    "placeholderItem": "Story {n} will appear here"
+  },
+  "footer": {
+    "sections": "Sections",
+    "about": "About",
+    "blurb": "A unified multilingual publishing platform for news, knowledge, books, and media."
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Password",
+    "name": "Name",
+    "signInTitle": "Welcome back",
+    "signUpTitle": "Join Oak KRD",
+    "signInSubmit": "Sign in",
+    "signUpSubmit": "Create account",
+    "noAccount": "Need an account?",
+    "hasAccount": "Already have an account?",
+    "errorInvalid": "Invalid email or password",
+    "errorExists": "An account with this email already exists",
+    "errorGeneric": "Something went wrong. Please try again."
+  },
+  "dashboard": {
+    "title": "Publisher dashboard",
+    "welcome": "Signed in as {name}",
+    "orgs": "Your organizations",
+    "noOrgs": "No organizations yet. Create one to start publishing.",
+    "createOrg": "Create organization",
+    "orgName": "Organization name",
+    "orgSlug": "URL slug",
+    "contents": "Recent content",
+    "noContents": "No content yet."
+  },
+  "booksShop": {
+    "newArrivals": "New arrivals",
+    "books": "Books",
+    "ebooks": "E-Books",
+    "audio": "Audio",
+    "by": "by"
+  },
+  "podcastsShop": {
+    "discover": "Discover",
+    "library": "Library",
+    "charts": "Charts",
+    "newReleases": "New releases",
+    "featured": "Featured",
+    "topCharts": "Top charts",
+    "thisWeek": "This week",
+    "thisMonth": "This month",
+    "nowPlaying": "Now playing",
+    "play": "Play",
+    "pause": "Pause",
+    "episodes": "Episodes",
+    "episode": "episode",
+    "backToPodcasts": "All podcasts",
+    "listenVideo": "Video",
+    "listenAudio": "Audio",
+    "chooseFormat": "How do you want to listen?"
+  },
+  "newsShop": {
+    "recentlyAdded": "Recently added",
+    "all": "All",
+    "trending": "Trending",
+    "international": "International",
+    "politics": "Politics",
+    "business": "Business",
+    "by": "by"
+  },
+  "articlesShop": {
+    "exhibitions": "Essays",
+    "latest": "Latest articles",
+    "latestSub": "Long-form writing, opinion, and cultural essays from Oak KRD publishers.",
+    "viewMore": "View more",
+    "showLess": "Show less",
+    "on": "on"
+  },
+  "galleryShop": {
+    "heroTitle": "Art Gallery",
+    "heroTagline": "Showcasing contemporary Kurdish and regional artists.",
+    "learnMore": "Learn more",
+    "events": "Events",
+    "exhibitions": "Exhibitions",
+    "aboutTitle": "About us",
+    "aboutBody": "Oak KRD Gallery presents paintings, graphic arts, and sculpture from emerging and established artists across Kurdistan and the diaspora.",
+    "weekdays": "Weekdays",
+    "weekends": "Weekends",
+    "hoursWeek": "10:00 – 18:00",
+    "hoursWeekend": "11:00 – 16:00",
+    "buyTickets": "Buy / inquire",
+    "worksTitle": "Works of artists",
+    "seeAll": "See all works",
+    "pricesTitle": "Our prices",
+    "paintings": "Paintings",
+    "graphic": "Graphic arts",
+    "sculptures": "Sculptures",
+    "testimonials": "Testimonials"
+  }
+}

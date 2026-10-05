@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#102418"/>
+      <stop offset="100%" stop-color="#2d6a4f"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#g)"/>
+  <circle cx="640" cy="160" r="120" fill="rgba(255,255,255,0.08)"/>
+  <circle cx="120" cy="680" r="180" fill="rgba(0,0,0,0.18)"/>
+  <text x="80" y="420" font-family="Georgia, serif" font-size="120" font-weight="700" fill="#F9F6EE">LL</text>
+  <text x="80" y="720" font-family="Georgia, serif" font-size="28" fill="rgba(249,246,238,0.7)">Oak KRD Podcast</text>
+</svg>

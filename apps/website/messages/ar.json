@@ -1,0 +1,171 @@
+{
+  "brand": {
+    "name": "Oak KRD",
+    "tagline": "منصة نشر موحدة للمعرفة والأخبار"
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "discover": "اكتشف",
+    "publish": "انشر",
+    "signIn": "تسجيل الدخول",
+    "signUp": "إنشاء حساب",
+    "signOut": "تسجيل الخروج",
+    "dashboard": "لوحة التحكم"
+  },
+  "sections": {
+    "empty": "لا يوجد محتوى منشور في هذا القسم بعد.",
+    "news": {
+      "nav": "أخبار",
+      "title": "أخبار",
+      "description": "أحدث الأخبار من الناشرين والمنظمات."
+    },
+    "articles": {
+      "nav": "مقالات",
+      "title": "مقالات",
+      "description": "كتابات مطولة وآراء."
+    },
+    "gallery": {
+      "nav": "فن ومعرض",
+      "title": "فن ومعرض",
+      "description": "لوحات وفنون غرافيكية ومعارض."
+    },
+    "books": {
+      "nav": "كتب",
+      "title": "كتب",
+      "description": "الكتب والكتب الإلكترونية على المنصة."
+    },
+    "audiobooks": {
+      "nav": "كتب صوتية",
+      "title": "كتب صوتية",
+      "description": "استمع إلى الكتب بصيغة صوتية."
+    },
+    "research": {
+      "nav": "أبحاث",
+      "title": "أبحاث",
+      "description": "أوراق بحثية ومنشورات أكاديمية."
+    },
+    "podcasts": {
+      "nav": "بودكاست",
+      "title": "بودكاست",
+      "description": "سلاسل وحلقات البودكاست."
+    },
+    "video": {
+      "nav": "فيديو",
+      "title": "فيديو",
+      "description": "نسخ الفيديو والسرد المرئي."
+    },
+    "translations": {
+      "nav": "ترجمات",
+      "title": "ترجمات",
+      "description": "أعمال متاحة بأكثر من لغة."
+    }
+  },
+  "home": {
+    "headline": "منصة واحدة. صيغ متعددة.",
+    "subhead": "انشر الأخبار والمقالات والكتب والأبحاث — ثم أوصلها للقراء كنص أو صوت أو فيديو أو ترجمة.",
+    "ctaPrimary": "ابدأ النشر",
+    "ctaSecondary": "استكشف المحتوى",
+    "foundationNote": "الأساس قيد الإعداد: المصادقة، المنظمات، ومتغيرات المحتوى.",
+    "hotNow": "الأبرز الآن",
+    "breaking": "عاجل",
+    "latest": "الأحدث",
+    "viewAll": "عرض الكل",
+    "emptyFeed": "لا توجد قصص منشورة بعد. كن أول صوت على Oak KRD.",
+    "comingSoon": "قريباً",
+    "placeholderItem": "ستظهر القصة {n} هنا"
+  },
+  "footer": {
+    "sections": "الأقسام",
+    "about": "حول",
+    "blurb": "منصة نشر موحدة متعددة اللغات للأخبار والمعرفة والكتب والإعلام."
+  },
+  "auth": {
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "name": "الاسم",
+    "signInTitle": "مرحباً بعودتك",
+    "signUpTitle": "انضم إلى Oak KRD",
+    "signInSubmit": "تسجيل الدخول",
+    "signUpSubmit": "إنشاء حساب",
+    "noAccount": "ليس لديك حساب؟",
+    "hasAccount": "لديك حساب بالفعل؟",
+    "errorInvalid": "البريد أو كلمة المرور غير صحيحة",
+    "errorExists": "يوجد حساب بهذا البريد بالفعل",
+    "errorGeneric": "حدث خطأ. حاول مرة أخرى."
+  },
+  "dashboard": {
+    "title": "لوحة الناشر",
+    "welcome": "مسجل الدخول باسم {name}",
+    "orgs": "منظماتك",
+    "noOrgs": "لا توجد منظمات بعد. أنشئ واحدة لبدء النشر.",
+    "createOrg": "إنشاء منظمة",
+    "orgName": "اسم المنظمة",
+    "orgSlug": "معرّف الرابط",
+    "contents": "أحدث المحتوى",
+    "noContents": "لا يوجد محتوى بعد."
+  },
+  "booksShop": {
+    "newArrivals": "وصل حديثاً",
+    "books": "كتب",
+    "ebooks": "إلكترونية",
+    "audio": "صوتي",
+    "by": "بقلم"
+  },
+  "podcastsShop": {
+    "discover": "اكتشف",
+    "library": "المكتبة",
+    "charts": "القوائم",
+    "newReleases": "إصدارات جديدة",
+    "featured": "مميز",
+    "topCharts": "الأكثر استماعاً",
+    "thisWeek": "هذا الأسبوع",
+    "thisMonth": "هذا الشهر",
+    "nowPlaying": "يُشغَّل الآن",
+    "play": "تشغيل",
+    "pause": "إيقاف",
+    "episodes": "الحلقات",
+    "episode": "حلقة",
+    "backToPodcasts": "كل البودكاستات",
+    "listenVideo": "فيديو",
+    "listenAudio": "صوت",
+    "chooseFormat": "كيف تريد الاستماع؟"
+  },
+  "newsShop": {
+    "recentlyAdded": "أضيف حديثاً",
+    "all": "الكل",
+    "trending": "رائج",
+    "international": "دولي",
+    "politics": "سياسة",
+    "business": "أعمال",
+    "by": "بقلم"
+  },
+  "articlesShop": {
+    "exhibitions": "مقالات",
+    "latest": "أحدث المقالات",
+    "latestSub": "كتابات مطولة وآراء ومقالات ثقافية من ناشري Oak KRD.",
+    "viewMore": "عرض المزيد",
+    "showLess": "عرض أقل",
+    "on": "في"
+  },
+  "galleryShop": {
+    "heroTitle": "معرض الفن",
+    "heroTagline": "عرض أعمال فنانين كرديين وإقليميين معاصرين.",
+    "learnMore": "اعرف المزيد",
+    "events": "فعاليات",
+    "exhibitions": "معارض",
+    "aboutTitle": "من نحن",
+    "aboutBody": "يقدّم معرض Oak KRD لوحات وفنوناً غرافيكية ومنحوتات لفنانين ناشئين ومخضرمين من كردستان والشتات.",
+    "weekdays": "أيام الأسبوع",
+    "weekends": "عطلة نهاية الأسبوع",
+    "hoursWeek": "١٠:٠٠ – ١٨:٠٠",
+    "hoursWeekend": "١١:٠٠ – ١٦:٠٠",
+    "buyTickets": "شراء / استفسار",
+    "worksTitle": "أعمال الفنانين",
+    "seeAll": "عرض كل الأعمال",
+    "pricesTitle": "أسعارنا",
+    "paintings": "لوحات",
+    "graphic": "فنون غرافيكية",
+    "sculptures": "منحوتات",
+    "testimonials": "آراء الزوار"
+  }
+}
